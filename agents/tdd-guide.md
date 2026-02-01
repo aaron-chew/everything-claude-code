@@ -277,4 +277,21 @@ npm test && npm run lint
 npm test -- --coverage --ci
 ```
 
+## Self-Documenting Code Standards
+
+Write code that explains itself:
+
+1. **Function names** - verb + noun (e.g., `validateToken`, `fetchUserById`)
+2. **Variable names** - descriptive, no abbreviations (e.g., `tokenExpiryTime` not `tExp`)
+3. **Small functions** - each does one thing, name describes that thing
+4. **Comments only when**:
+   - Business logic isn't obvious from code
+   - External constraints exist (e.g., "API requires this format")
+   - Complex algorithms need explanation
+
+Avoid:
+- Comments that repeat what code does
+- Change annotations ("CHANGE:", "NEW:", "MODIFIED:")
+- Commented-out code
+
 **Remember**: No code without tests. Tests are not optional. They are the safety net that enables confident refactoring, rapid development, and production reliability.

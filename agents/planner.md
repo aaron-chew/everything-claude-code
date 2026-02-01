@@ -86,6 +86,15 @@ Create detailed steps with:
 ## Success Criteria
 - [ ] Criterion 1
 - [ ] Criterion 2
+
+## Commit Strategy
+Break implementation into logical commits:
+- `feat(scope): description` - new functionality
+- `test(scope): description` - test additions
+- `refactor(scope): description` - restructuring
+- `fix(scope): description` - bug fixes
+
+Each commit should be atomic and independently reviewable.
 ```
 
 ## Best Practices

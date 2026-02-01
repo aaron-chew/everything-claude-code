@@ -91,6 +91,27 @@ const apiKey = process.env.API_KEY;  // ✓ Good
 - ⚠️ Warning: MEDIUM issues only (can merge with caution)
 - ❌ Block: CRITICAL or HIGH issues found
 
+## Commit Message Quality (HIGH)
+
+Check that commits follow conventional format:
+
+```
+type(scope): short description
+
+Body explains WHY the change was made, not WHAT changed.
+The code diff shows WHAT; the message explains WHY.
+
+Refs: #issue-number (if applicable)
+```
+
+Flag these issues:
+- Vague messages ("fix bug", "update code", "changes", "WIP")
+- Missing context on WHY the change was made
+- Giant commits that should be split into logical units
+- No reference to issue/ticket for feature work
+
+Good commit = traceable context via `git blame`
+
 ## Project-Specific Guidelines (Example)
 
 Add your project-specific checks here. Examples:
