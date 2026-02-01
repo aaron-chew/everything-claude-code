@@ -122,7 +122,7 @@ Confidence: 72% (based on 6 observations)
 
 Would create: debugger agent
 Files:
-  - ~/.claude/homunculus/evolved/agents/debugger.md
+  - .claude/agents/debugger.md
 
 ---
 Run `/evolve --execute` to create these files.
