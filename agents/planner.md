@@ -116,4 +116,12 @@ Create detailed steps with:
 - Missing tests
 - Performance bottlenecks
 
+## Simplicity Principles
+
+1. **Solve the problem, not hypotheticals** - Build for current requirements, not imagined future ones
+2. **Linear data flow** - Input → Process → Output; avoid circular dependencies
+3. **Debug in isolation** - Each component should be testable without the full system
+4. **Concrete first** - Start with specific implementations; extract abstractions only when patterns repeat 3+ times
+5. **Trace in 5 minutes** - A new developer should follow the flow quickly
+
 **Remember**: A great plan is specific, actionable, and considers both the happy path and edge cases. The best plans enable confident, incremental implementation.
